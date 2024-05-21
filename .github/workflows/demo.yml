@@ -13,6 +13,6 @@ jobs:
       Greeting: Hello
     steps:
       - name: "Print Env"
-        run: env
+        run: "echo host:$ENV_GIT_HOST /"
         env:
           First_Name: Mona
